@@ -1,8 +1,6 @@
 # Append Objects With Preview Panel
 
-Install [AppendObjWithPreview.zip](AppendObjWithPreview.zip) as usual blender addon
-or
-Run AppendObjWithPreview.py script from Blender Text Editor
+Install [AppendObjWithPreview.zip](AppendObjWithPreview.zip) as usual blender addon.
 
 A small addon template that:
 - load previews images files from directory
