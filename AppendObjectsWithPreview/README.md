@@ -9,7 +9,6 @@ A small addon template that:
 - follow cursor and snap to scene geometry.
 
 
-If the standard blender resource browser is not suitable for some reason.
 
 
 
