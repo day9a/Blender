@@ -13,8 +13,7 @@ A small addon template that:
 
 If the standard blender resource browser is not suitable for some reason.
 
-Install AppendObjWithPreview.zip as usual blender addon.
-Uncomment and replace 'directory' and 'file_path' lines for using in Blender Text Editor
+Install [AppendObjWithPreview.zip](AppendObjWithPreview.zip) as usual blender addon. 
 
 <img src="AppendObjectsWithPreview.gif" alt="result" width="512" height="512">
 
