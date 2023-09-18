@@ -1,4 +1,5 @@
-# FakeTube shader wiki
+# FakeTube shader guide
 
-Text.
+Free example shader: [FakeTube_free.blend](FakeTube_free.blend)
+
 
