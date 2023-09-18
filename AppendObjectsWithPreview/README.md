@@ -14,3 +14,7 @@ A small addon template that:
 
 <img src="AppendObjectsWithPreview.gif" alt="result" width="512" height="512">
 
+
+
+https://github.com/day9a/Blender/assets/69633736/4ca34ed2-7f9a-448f-bcd9-0306218d2d87
+
