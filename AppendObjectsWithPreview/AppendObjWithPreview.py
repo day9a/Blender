@@ -50,11 +50,15 @@ def update_selected(self, context):
     bpy.ops.wm.append(
         filepath=os.path.join(file_path, inner_path, object_name),
         directory=os.path.join(file_path, inner_path),
-        filename=object_name
+        filename=object_name,
+        check_existing=True,
+        autoselect=True,
+        do_reuse_local_id=True  
         )
         
-    bpy.data.objects[object_name].location.xyz = 0    
-    context.view_layer.objects.active = bpy.data.objects[object_name]
+    for ob in context.selected_objects:
+        if 'Plane' in ob.name:
+            ob.location.xyz = 0
     
     if wm.my_toggle:  
         bpy.ops.transform.translate('INVOKE_REGION_WIN',
@@ -69,7 +73,12 @@ class APPEND_PT_Panel(Panel):
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
     bl_category = "Append object"
-
+          
+    @classmethod
+    def poll(cls, context):
+        if context.area.type == 'VIEW_3D' and context.mode == 'OBJECT':
+            return True
+                  
     def draw(self, context):
         layout = self.layout
         wm = context.window_manager
