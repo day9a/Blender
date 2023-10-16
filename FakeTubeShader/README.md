@@ -22,6 +22,11 @@ Free example: [FakeTube_free.blend](FakeTube_free.blend)
 
 <details><summary>How it works:</summary>
 
+
+Tube separated to 5 parts: Top, Bottom, Walls, Gate A, Gate B, where each part of the tube is match each part of the texture. In general, it looks a UV unwrap. 
+
+Parts interact with each other only in a certain way for reasons of perfomance/optimization.
+
 <video src="https://github.com/day9a/Blender/assets/69633736/e3bc3dc9-e9fb-4b5c-b8b7-97f5b19822be" width="256" height="256">
 
 </details>
