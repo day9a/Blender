@@ -1,6 +1,6 @@
 # FakeTube shader guide
 
-<img src="ft_row.jpg" alt="result" width="640" height="75">
+<img src="imgs/ft_row.jpg" alt="result" width="640" height="75">
 
 Single face FakeTube shader. It can be used as a flat decal snap to walls, floor or any objects to improve scenes details.
 
@@ -8,14 +8,14 @@ Full version: ---
 
 Free example: [FakeTube_free.blend](FakeTube_free.blend) 
 
-<img src="ft_0_Preview.gif" alt="result" width="256" height="256">
+<img src="imgs/ft_0_Preview.gif" alt="result" width="256" height="256">
 
 ---
 
 
 <details><summary>Shader setting:</summary>
   
-<img src="ft_shader_setting.jpg" alt="result">
+<img src="imgs/ShaderEditorScreen.png" alt="result">
 
 </details>
 
@@ -36,7 +36,7 @@ text
 
 <details><summary>How make material copy:</summary>
 
-text
+<img src="imgs/ShaderEditorNewMat.png" alt="result">
 
 </details>
 
