@@ -8,7 +8,7 @@ Full version: ---
 
 Free example: [FakeTube_free.blend](FakeTube_free.blend) 
 
-<img src="imgs/ft_0_Preview.gif" alt="result" width="256" height="256">
+<img src="imgs/ft_0_Preview.gif" alt="result" width="256" height="256"> <img src="imgs/cube_preview.gif" alt="result" width="256" height="256">
 
 ---
 
